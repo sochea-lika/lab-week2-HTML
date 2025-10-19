@@ -1,0 +1,27 @@
+.row {
+  margin: 50px auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.aboutsection {
+  background: linear-gradient(to right, #f8f9fa, #eaeaea);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.aboutsection h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.aboutsection p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.aboutsection h5 {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #9a1695;
+}

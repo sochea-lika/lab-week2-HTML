@@ -1,0 +1,15 @@
+.homesection {
+  background-color: #f8f9fa; /* Light background */
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.homesection h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.homesection p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}

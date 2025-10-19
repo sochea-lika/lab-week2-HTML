@@ -1,0 +1,13 @@
+.footersection {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footersection h5 {
+  font-weight: 600;
+  color: #9a1695;
+}
+
+.footersection a:hover {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
