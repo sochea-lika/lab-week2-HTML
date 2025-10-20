@@ -1,15 +1,94 @@
+
+
+/* Home Section */
 .homesection {
-  background-color: #f8f9fa; /* Light background */
-  font-family: 'Noto Sans', sans-serif;
+  padding: 60px 0;
+  background-color: #f9f9f9;
 }
 
-.homesection h2 {
-  font-weight: 700;
-  font-size: 2.5rem;
+.home-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
 }
 
-.homesection p {
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: #9a1695;
+}
+
+.home-description {
   font-size: 1.2rem;
-  color: #333;
   line-height: 1.6;
 }
+
+/* Course Section */
+.course-section {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.course-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.course-card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 270px;
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.course-card img {
+  height: 176.94px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.course-card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: auto;
+}
+
+.course-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #9a1695;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+

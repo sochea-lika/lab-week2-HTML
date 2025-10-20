@@ -1,27 +1,65 @@
-.row {
-  margin: 50px auto;
-  justify-content: center;
-  gap: 20px;
-}
 
 .aboutsection {
-  background: linear-gradient(to right, #f8f9fa, #eaeaea);
+  background: whitesmoke;
   font-family: 'Noto Sans', sans-serif;
-}
-
-.aboutsection h2 {
-  font-weight: 700;
-  font-size: 2.5rem;
-}
-
-.aboutsection p {
-  font-size: 1.1rem;
-  color: #333;
-  line-height: 1.6;
+  padding: 60px 0;
+  background-color: #f9f9f9;
 }
 
 .aboutsection h5 {
   font-weight: 600;
   margin-top: 10px;
   color: #9a1695;
+}
+
+
+.about-container {
+  max-width: 1200px;
+  margin : 0 auto;  
+  text-align: center;
+  padding: 0 20px;
+}
+
+.about-title {
+  margin-bottom: 30px;
+  color: #9a1695;
+  font-size: 2rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.about-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  flex: 1;
+  min-width: 280px;
+  max-width: 32%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-image {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
 }

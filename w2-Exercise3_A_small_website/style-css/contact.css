@@ -1,20 +1,45 @@
 .contactsection {
-  background: linear-gradient(to right, #f8f9fa, #eaeaea);
+  padding: 60px 0;
+  background-color: #fff;
   font-family: 'Noto Sans', sans-serif;
 }
 
-.contactsection h2 {
-  font-weight: 700;
-  font-size: 2.5rem;
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
 }
 
-.contactsection .card-title {
-  font-size: 1.3rem;
+.contact-title {
+  font-size: 2rem;
   color: #9a1695;
-  font-weight: 600;
+  margin-bottom: 30px;
 }
 
-.contactsection .card-text {
-  font-size: 1rem;
-  color: #333;
+.contact-description {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
 }
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
